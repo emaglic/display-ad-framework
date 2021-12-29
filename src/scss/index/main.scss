@@ -1,0 +1,41 @@
+html,
+body {
+  background-color: transparent;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+#banner {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #fff;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  transform-origin: 0% 0%;
+
+  &.size-320x250 {
+    width: 320px;
+    height: 250px;
+  }
+
+  &.size-300x600 {
+    width: 300px;
+    height: 600px;
+  }
+
+  &.size-320x100 {
+    width: 320px;
+    height: 100px;
+  }
+
+  &.size-728x90 {
+    width: 728px;
+    height: 90px;
+  }
+
+  &.size-1200x628 {
+    width: 1200px;
+    height: 628px;
+  }
+}
